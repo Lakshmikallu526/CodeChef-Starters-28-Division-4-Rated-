@@ -1,0 +1,10 @@
+t=int(input())
+for i in range(t):
+    a,b,c,d=map(int,input().split())
+    on,tw=c/a,d/b
+    if on<tw:
+        print(-1)
+    elif tw<on:
+        print(1)
+    else:
+        print(0)
