@@ -1,0 +1,8 @@
+for k in range(int(input())):
+ n=int(input())
+ c=0
+ l=list(map(int,input().split()))
+ for i in range(0,n):
+   if l[i]>=10 and l[i]<=60:
+       c=c+1
+ print(c)
